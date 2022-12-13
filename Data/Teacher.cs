@@ -1,16 +1,14 @@
 ﻿namespace OS7.Data
 {
-    internal class Student : User, IAuthorisable, ILearn
+    internal class Teacher : User, IAuthorisable, ITeach
     {
         public void Authorisation() => Console.WriteLine("Authorised");
-        public void Learn() => Console.WriteLine("Learning...");
+        public void Teach() => Console.WriteLine("Teaching...");
 
         public override void Execute()
         {
             Authorisation();
-            Learn();
+            Teach();
         }
-
-        
     }
 }
