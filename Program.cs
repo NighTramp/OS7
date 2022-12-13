@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace OS7
+{
+    class Programm 
+    {
+        public static void Main(string[] args)
+        {
+
+        }
+    }
+}
